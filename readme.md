@@ -33,11 +33,22 @@ For Deploy and run into a server the production compilation:
 npm run server
 ```
 
+For compilation and deploy to gh-pages
+
+```
+npm i
+npm run build:gh
+```
+
 For Linting the JS of the exercises:
 
 ```
 npm run lint
 ```
+
+### GH-pages
+
+https://paulinhos23.github.io/scm-frontend/
 
 ## Built With
 
