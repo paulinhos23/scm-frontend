@@ -3,4 +3,4 @@ parcelRequire=function(e,r,n,t){var i="function"==typeof parcelRequire&&parcelRe
 },{"/Users/paualmirall/Projects/scmtest/assets/fonts/proximanova-regular.eot":[["proximanova-regular.4aecc64c.eot","T/C8"],"T/C8"],"/Users/paualmirall/Projects/scmtest/assets/fonts/proximanova-regular.ttf":[["proximanova-regular.27c851a3.ttf","m5TJ"],"m5TJ"]}],"Focm":[function(require,module,exports) {
 "use strict";require("./styles/home.scss");
 },{"./styles/home.scss":"v7hf"}]},{},["Focm"], null)
-//# sourceMappingURL=/scmtest.dc8b403e.map
+//# sourceMappingURL=https://paulinhos23.github.io/scm-frontend/scmtest.dc8b403e.map
