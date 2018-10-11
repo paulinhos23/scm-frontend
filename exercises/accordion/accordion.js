@@ -11,6 +11,9 @@ const accordionComponent = () => {
     const accordionTerms = accordionElement.querySelectorAll('[data-accordionTerm]');
 
     accordionTerms.forEach(term => {
+      const backButton = accordionElement.querySelector('[data-accordionBack]');
+
+      backButton.addEventListener('click', () => history.back(-1));
       term.addEventListener('click', (e) => toggleContent(e.target));
       term.addEventListener('keypress', (e) => {
         // If the key pressed is not Enter or Space, we won't trigger the toggle.

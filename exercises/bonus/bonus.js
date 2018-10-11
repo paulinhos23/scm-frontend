@@ -7,7 +7,9 @@ const bonusComponent = () => {
 
   const init = () => {
     const searchBox = document.querySelector('[data-bonusInput]');
-    
+    const backButton = document.querySelector('[data-bonusBack]');
+
+      backButton.addEventListener('click', () => history.back(-1));
     searchBox.addEventListener('change', searchQuery);
     modalWrapper.addEventListener('click', toggleModal);
   }
