@@ -1,0 +1,30 @@
+{
+  "name": "scmtest",
+  "version": "1.0.0",
+  "description": "scmtest application",
+  "main": "index.js",
+  "engines": {
+    "node": ">=9.8.0",
+    "npm": ">=6.4.1"
+  },
+  "scripts": {
+    "server": "http-server dist",
+    "dev": "parcel index.html",
+    "build": "parcel build index.html",
+    "lint": "eslint exercises/"
+  },
+  "author": "paulinhos23",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "autoprefixer": "^9.1.5",
+    "eslint": "^5.6.1",
+    "http-server": "^0.11.1",
+    "parcel-bundler": "^1.7.0",
+    "parcel-plugin-eslint": "^1.0.4",
+    "sass": "^1.14.1"
+  }
+}

@@ -1,0 +1,9 @@
+@import "variables.scss";
+@import "reset.scss";
+@import "fonts.scss";
+
+body {
+  font-family: $fontfamily-primary;
+  font-size: $font-m;
+  background-color: $color-grey;
+}
